@@ -4,7 +4,7 @@ public class Main{
     public static void main(String args[])
     {
         int arr[]={4,5,1,6,7,8,3};
-        int max=0;
+        int max=Integer.MIN_VALUE;
         int min=Integer.MAX_VALUE;
         for(int i=0; i<arr.length; i++)
         {
